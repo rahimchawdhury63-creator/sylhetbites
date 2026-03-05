@@ -1,1 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --primary: #d97706;
+    --dark: #1f2937;
+    --light: #fefce8;
+    --white: #ffffff;
+    --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    color: var(--dark);
+}
+
+/* --- Sticky Nav --- */
+.navbar {
+    position: fixed;
+    top: 0; width: 100%;
+    height: 70px;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+.nav-container {
+    width: 90%; max-width: 1200px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.nav-logo { display: flex; align-items: center; text-decoration: none; gap: 10px; }
+.nav-logo img { height: 40px; }
+.nav-logo span { font-family: 'Playfair Display'; color: var(--primary); font-size: 1.5rem; }
+.nav-links { list-style: none; display: flex; gap: 20px; }
+.nav-links a { text-decoration: none; color: var(--dark); font-weight: 600; }
+.nav-links a.active { color: var(--primary); }
+
+/* --- Hero --- */
+.home-hero {
+    margin-top: 70px;
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://sylhetbites.pages.dev/img/logo-512.png');
+    background-size: contain;
+    background-position: center;
+    color: white;
+}
+.ramadan-badge img { height: 80px; margin-bottom: 20px; animation: bounce 2s infinite; }
+@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+/* --- Product Card --- */
+.container { max-width: 1200px; margin: 40px auto; padding: 20px; }
+.product-card {
+    background: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: var(--shadow);
+    max-width: 900px; margin: 0 auto;
+}
+.product-image { flex: 1; min-width: 300px; position: relative; }
+.product-image img { width: 100%; height: 100%; object-fit: cover; }
+.save-tag {
+    position: absolute; top: 20px; left: 20px;
+    background: #ef4444; color: white; padding: 5px 15px;
+    border-radius: 50px; font-weight: bold;
+}
+.product-info { flex: 1; padding: 40px; min-width: 300px; }
+.rating { color: #f59e0b; margin-bottom: 10px; }
+.price-box { margin: 20px 0; }
+.current-price { font-size: 2rem; font-weight: 700; color: var(--primary); }
+.regular-price { text-decoration: line-through; color: #9ca3af; margin-left: 10px; }
+
+.add-to-cart-btn {
+    width: 100%;
+    padding: 15px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.add-to-cart-btn:hover { background: #b45309; transform: scale(1.02); }
+
+/* --- Floating Cart --- */
+.floating-cart {
+    position: fixed; bottom: 30px; right: 30px;
+    background: var(--primary); color: white;
+    width: 60px; height: 60px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.5rem; cursor: pointer; z-index: 2000;
+    box-shadow: 0 10px 25px rgba(217, 119, 6, 0.4);
+}
+.cart-count {
+    position: absolute; top: -5px; right: -5px;
+    background: #ef4444; font-size: 0.8rem;
+    padding: 2px 8px; border-radius: 50px;
+}
+
+/* --- Footer --- */
+.site-footer {
+    background: var(--dark); color: white;
+    padding: 60px 20px; text-align: center; margin-top: 100px;
+    position: relative;
+}
+.powered-by { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 20px; }
+.powered-by img { height: 30px; }
+.debate-link { color: var(--primary); text-decoration: none; }
 
