@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | SylhetBites - Authentic Homemade Food</title>
-    <meta name="description" content="Discover the story of SylhetBites, your trusted e-commerce platform for authentic, healthy, and homemade traditional Bangladeshi food products across Sylhet. Founded by Rizwan Rahim Chowdhury.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>About Us | SylhetBites - Authentic Homemade Food in Sylhet</title>
+    <meta name="title" content="About Us | SylhetBites - Authentic Homemade Food in Sylhet">
+    <meta name="description" content="Discover SylhetBites, founded by Rizwan Rahim Chowdhury. We deliver 100% pure, healthy, and traditional homemade Bangladeshi food across Sylhet within 1 hour.">
     <meta name="author" content="Rizwan Rahim Chowdhury">
-    <meta name="theme-color" content="#d97706">
+    <meta name="keywords" content="SylhetBites, homemade food Sylhet, traditional Bangladeshi food, order food online Sylhet, healthy food Sylhet, fresh Samosa, e-commerce food">
     
     <link rel="canonical" href="https://sylhetbites.pages.dev/general/about-us/">
-
+    
     <link rel="icon" type="image/png" sizes="16x16" href="https://sylhetbites.pages.dev/img/favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://sylhetbites.pages.dev/img/favicon-32.png">
     <link rel="apple-touch-icon" href="https://sylhetbites.pages.dev/img/apple-touch-icon.png">
@@ -18,9 +21,14 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sylhetbites.pages.dev/general/about-us/">
-    <meta property="og:title" content="About Us | SylhetBites">
-    <meta property="og:description" content="Premium homemade traditional food delivered across Sylhet. Taste the authenticity.">
-    <meta property="og:image" content="https://sylhetbites.pages.dev/img/logo-512.png">
+    <meta property="og:title" content="About SylhetBites - Pure Homemade Delights">
+    <meta property="og:description" content="Bringing the authentic taste of 'Maa'er haater ranna' straight to your doorstep in Sylhet. 100% homemade and healthy.">
+    <meta property="og:image" content="https://sylhetbites.pages.dev/img/vibrant-bangladeshi-homemade-healthy-mini-chiken-samosa-SylhetBites.png">
+    <meta property="og:site_name" content="SylhetBites">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://sylhetbites.pages.dev/general/about-us/about.css">
 
@@ -37,14 +45,23 @@
             "@type": "Person",
             "name": "Rizwan Rahim Chowdhury"
           },
-          "description": "An e-commerce website for healthy, homemade, traditional Bangladeshi food across Sylhet."
+          "description": "An online e-commerce platform dedicated to 100% homemade, healthy, and traditional food products across Sylhet, Bangladesh."
         },
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sylhetbites.pages.dev/" },
-            { "@type": "ListItem", "position": 2, "name": "General", "item": "https://sylhetbites.pages.dev/general/" },
-            { "@type": "ListItem", "position": 3, "name": "About Us", "item": "https://sylhetbites.pages.dev/general/about-us/" }
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sylhetbites.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About Us",
+              "item": "https://sylhetbites.pages.dev/general/about-us/"
+            }
           ]
         },
         {
@@ -52,13 +69,27 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "What is SylhetBites?",
-              "acceptedAnswer": { "@type": "Answer", "text": "SylhetBites is an online platform delivering healthy, homemade traditional Sylheti and Bangladeshi food products directly to your doorstep." }
+              "name": "Are SylhetBites products truly homemade?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, every single product is crafted in pristine home kitchens by experienced cooks, ensuring the authentic taste of 'Maa'er haater ranna'."
+              }
             },
             {
               "@type": "Question",
-              "name": "Are the products really homemade?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes! All our products are crafted in home kitchens ensuring the highest standards of hygiene and authentic taste." }
+              "name": "How long does delivery take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We pride ourselves on fast local delivery. Depending on your location within Sylhet, our maximum delivery time is just 1 hour."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you use preservatives?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely not. We believe in healthy living. Our foods contain zero artificial preservatives and are made with pure, organic ingredients."
+              }
             }
           ]
         }
@@ -68,13 +99,17 @@
 </head>
 <body>
 
+    <div class="bg-watermark"></div>
+
     <nav class="navbar">
         <div class="nav-container">
-            <a href="https://sylhetbites.pages.dev/" class="nav-logo">
-                <img src="https://sylhetbites.pages.dev/img/logo.png" alt="SylhetBites Logo">
-                <span>SylhetBites</span>
+            <a href="https://sylhetbites.pages.dev/" class="brand-logo">
+                <img src="https://sylhetbites.pages.dev/img/logo.png" alt="SylhetBites Official Logo">
             </a>
-            <ul class="nav-links">
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="https://sylhetbites.pages.dev/">Home</a></li>
                 <li><a href="https://sylhetbites.pages.dev/general/about-us/" class="active">About Us</a></li>
                 <li><a href="https://sylhetbites.pages.dev/general/contact-us/">Contact Us</a></li>
@@ -82,56 +117,133 @@
         </div>
     </nav>
 
-    <header class="hero-section">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Preserving the Taste of Tradition</h1>
-            <p>Bringing authentic, healthy, and homemade Bangladeshi flavors to every home in Sylhet.</p>
-        </div>
-    </header>
-
-    <main class="about-container">
-        <section class="story-section">
-            <h2>Our Story</h2>
-            <div class="story-text">
-                <p>Welcome to <strong>SylhetBites</strong>, your trusted gateway to the rich, aromatic culinary heritage of Bangladesh. Founded by <strong>Rizwan Rahim Chowdhury</strong>, our platform was born out of a deep passion for preserving the authentic recipes that have been passed down through generations.</p>
-                
-                <p>In today's fast-paced world, finding pure, healthy, and unadulterated food can be a challenge. That is why we created SylhetBites—a boutique e-commerce platform dedicated exclusively to homemade food products. We believe that the best meals aren't made in factories; they are crafted with love in a home kitchen.</p>
-                
-                <p>Every single product featured on SylhetBites is proudly homemade. From raw, organic ingredients to carefully prepared traditional snacks, we ensure everything is processed hygienically and served with the utmost care across the Sylhet region. When you shop with us, you aren't just buying food; you are bringing home the pure, comforting taste of "Maa'er haater ranna" (mother's cooking).</p>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Crafting Traditions, Delivering Love</h1>
+                <p>Welcome to SylhetBites, your trusted gateway to the rich, aromatic culinary heritage of Bangladesh.</p>
             </div>
         </section>
 
-        <section class="values-section">
-            <div class="value-card">
-                <h3>🏡 100% Homemade</h3>
-                <p>Crafted in pristine home kitchens to guarantee unmatched quality and care.</p>
+        <section class="our-story container">
+            <div class="story-text">
+                <h2>Our Story</h2>
+                <p>Founded by <strong>Rizwan Rahim Chowdhury</strong>, SylhetBites was born out of a deep-rooted passion for preserving the authentic recipes passed down through generations. In today's fast-paced, highly commercialized world, finding pure, healthy, and unadulterated food can be a monumental challenge.</p>
+                <p>That is precisely why we created SylhetBites—a premium, boutique e-commerce platform dedicated exclusively to authentic homemade food products. We firmly believe that the best, most soul-satisfying meals are not manufactured in massive factories; they are crafted with love, patience, and care in a home kitchen.</p>
+                <p>Every single product featured on our platform is proudly homemade. From sourcing the finest raw, organic ingredients to the careful preparation of traditional Bangladeshi snacks, we ensure everything is processed hygienically. When you shop with us, you aren't just buying food; you are bringing home the pure, comforting, and nostalgic taste of <em>"Maa'er haater ranna"</em> (mother's cooking).</p>
             </div>
-            <div class="value-card">
-                <h3>🌿 Healthy & Pure</h3>
-                <p>No artificial preservatives. Just natural ingredients for a healthier lifestyle.</p>
+        </section>
+
+        <section class="values">
+            <div class="container values-grid">
+                <div class="value-card">
+                    <div class="icon">🏡</div>
+                    <h3>100% Homemade</h3>
+                    <p>Crafted in pristine home kitchens by passionate cooks to guarantee unmatched quality, authenticity, and care in every bite.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon">🌿</div>
+                    <h3>Healthy & Pure</h3>
+                    <p>Zero artificial preservatives. We rely solely on natural, organic ingredients to support a healthier lifestyle for you and your family.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon">🛵</div>
+                    <h3>Lightning Local Delivery</h3>
+                    <p>Proudly serving the Sylhet community. Experience fast, reliable, and careful delivery with a <strong>maximum wait time of just 1 hour</strong> (location based).</p>
+                </div>
             </div>
-            <div class="value-card">
-                <h3>🛵 Local Delivery</h3>
-                <p>Proudly serving the Sylhet community with fast, reliable, and careful delivery.</p>
+        </section>
+
+        <section class="spotlight container">
+            <div class="spotlight-content">
+                <div class="spotlight-image-wrapper">
+                    <img src="https://sylhetbites.pages.dev/img/vibrant-bangladeshi-homemade-healthy-mini-chiken-samosa-SylhetBites.png" alt="SylhetBites Homemade Mini Chicken Samosa 10 PCs Pack" class="spotlight-img" loading="lazy">
+                    <img src="https://i.imgur.com/lBrwXl2.png" alt="10 Percent Discount Logo" class="discount-badge">
+                </div>
+                <div class="spotlight-text">
+                    <h2>Taste the Perfection</h2>
+                    <p>Try our signature <strong>Mini Chicken Samosas (10 PC Pack)</strong>. Golden, crispy, and packed with a flavorful, purely homemade filling. Perfect for your evening tea or serving esteemed guests. Grab yours today and enjoy our special ongoing discount!</p>
+                    <a href="https://sylhetbites.pages.dev/" class="btn">Order Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Are SylhetBites products truly homemade?</button>
+                    <div class="accordion-content">
+                        <p>Yes, every single product is crafted in pristine home kitchens by experienced cooks, ensuring the authentic taste of 'Maa'er haater ranna'.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">How long does delivery take?</button>
+                    <div class="accordion-content">
+                        <p>We pride ourselves on fast local delivery. Depending on your location within Sylhet, our maximum delivery time is just 1 hour.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Do you use preservatives?</button>
+                    <div class="accordion-content">
+                        <p>Absolutely not. We believe in healthy living. Our foods contain zero artificial preservatives and are made with pure, organic ingredients.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
-        <div class="footer-content">
-            <p>&copy; 2026 SylhetBites. All Rights Reserved.</p>
-            <p>Founded by <strong>Rizwan Rahim Chowdhury</strong></p>
-            
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="https://sylhetbites.pages.dev/img/logo.png" alt="SylhetBites Footer Logo" class="footer-logo">
+                <p>Bringing authentic Bangladeshi culinary heritage across Sylhet.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://sylhetbites.pages.dev/">Home</a></li>
+                    <li><a href="https://sylhetbites.pages.dev/general/about-us/">About Us</a></li>
+                    <li><a href="https://sylhetbites.pages.dev/general/contact-us/">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SylhetBites. Founded by Rizwan Rahim Chowdhury. All Rights Reserved.</p>
             <div class="powered-by">
                 <span>Powered by</span>
-                <a href="https://debatesylhetbd.onrender.com/" target="_blank" rel="noopener noreferrer" class="debate-link">
-                    <strong>DebateSylhetBD</strong>
-                    <img src="https://debatesylhetbd.onrender.com/logo.png" alt="DebateSylhetBD Logo" class="debate-logo">
+                <a href="https://debatesylhetbd.onrender.com/" target="_blank" rel="noopener">
+                    <img src="https://debatesylhetbd.onrender.com/logo.png" alt="DebateSylhetBD Logo">
+                    DebateSylhetBD
                 </a>
             </div>
         </div>
     </footer>
 
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('toggle');
+        });
+
+        // FAQ Accordion Logic
+        const accordions = document.querySelectorAll('.accordion-header');
+
+        accordions.forEach(acc => {
+            acc.addEventListener('click', function() {
+                this.classList.toggle('active');
+                const content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
 </body>
 </html>
