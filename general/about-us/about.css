@@ -358,7 +358,6 @@ h1, h2, h3 {
 .footer-logo {
     height: 70px;
     margin-bottom: 20px;
-    filter: brightness(0) invert(1); /* Makes the logo white */
 }
 
 .footer-links h3 {
