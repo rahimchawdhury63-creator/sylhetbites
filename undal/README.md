@@ -5,6 +5,9 @@ A fully static, ultra-responsive, SEO-optimized **menu portfolio website** for *
 [Foodpanda](https://www.foodpanda.com.bd/restaurant/cdo6/undal-cdo6)).
 
 Standalone brand site — lives in `/undal/` and does not link to or from SylhetBites.
+Deployed as its own site at **https://undal.bsdc.info.bd** (deploy the `undal/` folder
+as the site root; e.g. Cloudflare Pages build command `node undal/tools/build.js`,
+output directory `undal`).
 No phone / address / contact info is shown by design (pure menu portfolio).
 
 ## Features

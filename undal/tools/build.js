@@ -10,7 +10,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'menu.json'), 'utf8'));
-const SITE_URL = 'https://sylhetbites.pages.dev/undal/';
+const SITE_URL = 'https://undal.bsdc.info.bd/';
 const ORDER_URL = DATA.restaurant.url;
 
 const esc = (s) => String(s)
