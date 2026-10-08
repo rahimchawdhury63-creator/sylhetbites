@@ -1,0 +1,161 @@
+{
+  "restaurant": {
+    "name": "Undal",
+    "tagline": "Authentic Bengali home cooking — bhorta, bhuna, fish curry & traditional set meals",
+    "url": "https://www.foodpanda.com.bd/restaurant/cdo6/undal-cdo6",
+    "cuisines": ["Asian", "Snacks", "Rice Dishes", "Bangladeshi", "Curry"],
+    "deal": "20% off on all items — auto applied on Foodpanda",
+    "hours": [
+      { "days": ["Monday", "Tuesday", "Thursday", "Friday"], "opens": "08:30", "closes": "22:30" },
+      { "days": ["Wednesday"], "opens": "08:30", "closes": "23:00" },
+      { "days": ["Saturday"], "opens": "08:30", "closes": "22:45" },
+      { "days": ["Sunday"], "opens": "08:30", "closes": "22:00" }
+    ]
+  },
+  "categories": [
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "blurb": "Crispy, golden & freshly fried — the perfect start to any meal.",
+      "items": [
+        { "slug": "crispy-fried-chicken", "name": "Crispy Fried Chicken", "price": 113, "regular": 141, "desc": "1 pc - Crunchy & deep-fried chicken prepared with savory spice blend", "img": "crispy-fried-chicken" },
+        { "slug": "chicken-chaap", "name": "Chicken Chaap", "price": 132, "regular": 165, "desc": "1:1 - Spicy pan-fried chicken prepared with traditional spice & herb", "img": "chicken-chaap", "tags": ["spicy"] },
+        { "slug": "french-fries", "name": "French Fries", "price": 113, "regular": 141, "desc": "1:1 - Golden & crispy potato finger seasoned with salt & light spice", "img": "french-fries", "tags": ["veg"] },
+        { "slug": "chira-bhaja", "name": "Chira Bhaja", "price": 108, "regular": 135, "desc": "1:1 - Fresh & crispy fried flattened plain rice prepared with onion", "img": "chira-bhaja", "tags": ["veg"] },
+        { "slug": "chicken-kabab", "name": "Chicken Kabab", "price": 36, "regular": 45, "from": true, "desc": "Fresh chicken kabab with tasty spices perfect for all food", "img": "chicken-kabab", "tags": ["spicy"] },
+        { "slug": "mini-masala-popcorn", "name": "Mini Masala Popcorn", "price": 36, "regular": 45, "desc": "Small Cup Chicken masala popcorn", "img": "mini-masala-popcorn", "tags": ["spicy"] },
+        { "slug": "chana-bhaja", "name": "Chana Bhaja", "price": 75, "regular": 94, "desc": "1:1 - Roasted split chickpeas tossed with traditional Bengali spice", "img": "chana-bhaja", "tags": ["veg"] },
+        { "slug": "bhaja-pitha", "name": "Bhaja Pitha", "price": 141, "regular": 176, "desc": "1:1 - Crispy fried traditional rice-flour pitha, golden & homestyle", "img": "bhaja-pitha", "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "blurb": "Traditional Bengali sweets — semolina, milk & pitha, made the homestyle way.",
+      "items": [
+        { "slug": "sujir-halwa", "name": "Sujir Halwa", "price": 170, "regular": 212, "desc": "1:1 - Sweet & rich semolina dessert prepared with sugar & ghee", "img": "sujir-halwa", "tags": ["veg"] },
+        { "slug": "sujir-borra", "name": "Sujir Borra", "price": 132, "regular": 165, "from": true, "desc": "Fresh & tasty sweet semolina fritters prepared with sugar & milk", "img": "sujir-borra", "tags": ["veg"] },
+        { "slug": "patishapta-6pc", "name": "Patishapta (6 pcs)", "price": 144, "regular": 180, "desc": "6 PCs of tasty patishapta — soft rolled crepes with sweet filling", "img": "patishapta-6pc", "tags": ["veg"] },
+        { "slug": "chitol-pitha-shutki-bhorta", "name": "Chitol Pitha with Shutki Bhorta (5 pcs)", "price": 216, "regular": 270, "desc": "5 pic - traditional chitol Pitha with spicy shutki bhorta", "img": "chitol-pitha-shutki-bhorta", "tags": ["spicy"] },
+        { "slug": "nuner-shondesh", "name": "Nuner Shondesh", "price": 75, "regular": 94, "desc": "1:1 - Soft traditional Bengali shondesh made from fresh milk solids", "img": "nuner-shondesh", "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "pasta-noodles",
+      "name": "Pasta & Noodles",
+      "blurb": "Homestyle stir-fried noodles, pasta & macaroni with a Bengali twist.",
+      "items": [
+        { "slug": "spicy-pasta", "name": "Spicy Pasta", "price": 113, "regular": 141, "desc": "1:1 - Flavorful & spicy homestyle pasta prepared with savory herb & sauce", "img": "spicy-pasta", "tags": ["spicy"] },
+        { "slug": "egg-noodles", "name": "Egg Noodles", "price": 99, "regular": 124, "desc": "1:1 - Classic stick noodles stir-fried with egg & basic savory seasoning", "img": "egg-noodles" },
+        { "slug": "spicy-macaroni", "name": "Spicy Macaroni", "price": 113, "regular": 141, "desc": "1:1 - Homestyle macaroni stir-fried with vegetables & savory spice", "img": "spicy-macaroni", "tags": ["spicy"] }
+      ]
+    },
+    {
+      "id": "bhorta-bhaji",
+      "name": "Bhorta & Bhaji",
+      "blurb": "The soul of Bengali food — smoky, mashed & fried, finished with mustard oil.",
+      "items": [
+        { "slug": "spicy-alu-bhorta", "name": "Spicy Alu Bhorta", "price": 38, "regular": 47, "desc": "1:1 - Mashed potato blended with roasted chili & mustard oil", "img": "spicy-alu-bhorta", "tags": ["veg", "spicy"] },
+        { "slug": "tomato-bhorta", "name": "Tomato Bhorta", "price": 75, "regular": 94, "desc": "1:1 - Fresh & tangy mashed tomato prepared with spice & oil", "img": "tomato-bhorta", "tags": ["veg"] },
+        { "slug": "begun-bhorta", "name": "Begun Bhorta", "price": 57, "regular": 71, "desc": "1:1 - Smoky mashed eggplant prepared with onion, chili & mustard oil", "img": "begun-bhorta", "tags": ["veg"] },
+        { "slug": "dal-bhorta", "name": "Dal Bhorta", "price": 57, "regular": 71, "desc": "1:1 - Healthy mashed lentil prepared with onion, green chili & spice", "img": "dal-bhorta", "tags": ["veg"] },
+        { "slug": "fish-bhorta", "name": "Fish Bhorta", "price": 85, "regular": 106, "desc": "1:1 - Flavorful & spicy mashed fish prepared with onion & chili", "img": "fish-bhorta", "tags": ["spicy"] },
+        { "slug": "shidol-shutki-bhorta", "name": "Shidol Shutki Bhorta", "price": 75, "regular": 94, "desc": "1:1 - Spicy mashed fermented shidol fish prepared with onion & chili", "img": "shidol-shutki-bhorta", "tags": ["spicy"] },
+        { "slug": "chingri-shutki-bhorta", "name": "Chingri Shutki Bhorta", "price": 75, "regular": 94, "desc": "1:1 - Spicy mashed dried prawn prepared with onion, chili & oil", "img": "chingri-shutki-bhorta", "tags": ["spicy"] },
+        { "slug": "alu-bhaji", "name": "Alu Bhaji", "price": 47, "regular": 59, "desc": "1:1 - Crispy fried potato prepared with onion & green chili", "img": "alu-bhaji", "tags": ["veg"] },
+        { "slug": "begun-bhaja", "name": "Begun Bhaja", "price": 80, "regular": 100, "desc": "1:1 - Golden fried eggplant slices, soft inside & crisp outside", "img": "begun-bhaja", "tags": ["veg"] },
+        { "slug": "alu-begun-mixed-bhaja", "name": "Alu Begun Mixed Bhaja", "price": 64, "regular": 80, "desc": "1:1 - Authentic potato and eggplant mixed fry", "img": "alu-begun-mixed-bhaja", "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "curry",
+      "name": "Curry",
+      "blurb": "Slow-cooked bhuna & dal curries in thick, aromatic gravy.",
+      "items": [
+        { "slug": "chicken-bhuna", "name": "Chicken Bhuna", "price": 179, "regular": 224, "desc": "1:1 - Flavorful chicken curry prepared in thick gravy with traditional spice", "img": "chicken-bhuna" },
+        { "slug": "chicken-bhuna-moong-dal", "name": "Chicken Bhuna with Moong Dal", "price": 188, "regular": 235, "desc": "1:1 - Rich curry prepared with yellow lentil, chicken & spice", "img": "chicken-bhuna-moong-dal" },
+        { "slug": "egg-alu-bhuna", "name": "Egg Alu Bhuna", "price": 113, "regular": 141, "desc": "1:1 - Savory egg & potato curry prepared with thick gravy", "img": "egg-alu-bhuna" },
+        { "slug": "egg-bhuna", "name": "Egg Bhuna", "price": 57, "regular": 71, "desc": "1:1 - Spicy & thick gravy egg curry prepared with onion", "img": "egg-bhuna", "tags": ["spicy"] },
+        { "slug": "shutki-bhuna", "name": "Shutki Bhuna", "price": 113, "regular": 141, "desc": "1:1 - Intensely flavorful Chepa dried fish cooked in dry spice mix", "img": "shutki-bhuna", "tags": ["spicy"] },
+        { "slug": "moong-dal-bhuna", "name": "Moong Dal Bhuna", "price": 75, "regular": 94, "desc": "1:1 - Thick & roasted mung bean lentil prepared with aromatic spice", "img": "moong-dal-bhuna", "tags": ["veg"] },
+        { "slug": "moshur-dal-bhuna", "name": "Moshur Dal Bhuna", "price": 57, "regular": 71, "desc": "1:1 - Spicy & thick red lentil curry prepared with onion", "img": "moshur-dal-bhuna", "tags": ["veg", "spicy"] },
+        { "slug": "mixed-vegetable", "name": "Mixed Vegetable", "price": 70, "regular": 88, "desc": "1:1 - Healthy seasonal garden vegetable cooked with basic spice", "img": "mixed-vegetable", "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "blurb": "Fresh river fish — tengra, pabda & jhatka — cooked in rich Bengali gravy.",
+      "items": [
+        { "slug": "tengra-fish-curry", "name": "Tengra Fish Curry", "price": 160, "regular": 200, "desc": "1:1 - Traditional Tengra fish cooked in rich & spiced gravy", "img": "tengra-fish-curry", "tags": ["spicy"] },
+        { "slug": "pabda-fish-curry", "name": "Pabda Fish Curry", "price": 113, "regular": 141, "desc": "2 Pcs - Delicate Pabda fish prepared in savory & aromatic curry gravy", "img": "pabda-fish-curry" },
+        { "slug": "jhatka-fish-curry", "name": "Jhatka Fish Curry", "price": 88, "regular": 110, "desc": "1:1 - Authentically prepared jhatka (young hilsa) fish curry", "img": "jhatka-fish-curry" }
+      ]
+    },
+    {
+      "id": "set-meal",
+      "name": "Set Meal",
+      "blurb": "Complete homestyle plates — rice paired with curry, bhuna & bhorta.",
+      "items": [
+        { "slug": "biryani-with-chicken-roast", "name": "Biryani with Chicken Roast", "price": 188, "regular": 235, "desc": "1:1 - Tasty fresh chicken roast with perfect high quality biriyani", "img": "biryani-chicken-roast" },
+        { "slug": "bhuna-khichuri-with-egg", "name": "Bhuna Khichuri with Egg", "price": 155, "regular": 194, "desc": "1:1 - Full size portion of roasted lentil rice khichuri served with egg", "img": "bhuna-khichuri-egg" },
+        { "slug": "chirar-polao-with-egg", "name": "Chirar Polao with Egg", "price": 113, "regular": 141, "desc": "1:1 - Fresh & spiced flattened rice polao served with boiled egg", "img": "chirar-polao-egg" },
+        { "slug": "fish-bhaja-with-dal-curry", "name": "Fish Bhaja with Dal Curry", "price": 235, "regular": 294, "desc": "A traditional and comforting everyday Bengali meal. 1. Plain rice 2. Dal curry 3. Fish bhaja", "img": "fish-bhaja-dal-curry" },
+        { "slug": "plain-rice-with-dal-bhuna", "name": "Plain Rice with Dal Bhuna & Begun Bhaja", "price": 235, "regular": 294, "desc": "A simple, homely, and wholesome vegetable combo. 1. Plain rice 2. Dal bhuna 3. Begun bhaja", "img": "plain-rice-dal-bhuna", "tags": ["veg"] },
+        { "slug": "shutki-bhorta-with-dal-bhuna", "name": "Shutki Bhorta with Dal Bhuna", "price": 198, "regular": 247, "desc": "A fiery and flavorful combo for authentic dried fish lovers. 1. Plain rice 2. Dal bhuna 3. Shutki bhorta", "img": "shutki-bhorta-dal-bhuna", "tags": ["spicy"] },
+        { "slug": "chhatrabash-special-dim-bhaja", "name": "Chhatrabash Special Dim Bhaja", "price": 217, "regular": 271, "desc": "The ultimate comfort food combo that feels just like home. 1. Plain rice 2. Dal 3. Dim bhaja", "img": "chhatrabash-dim-bhaja" },
+        { "slug": "bhorta-platter", "name": "Begun, Dal & Tomato Bhorta Platter", "price": 358, "regular": 447, "desc": "A massive platter celebrating the rich bhorta culture of Bangladesh. 1. Plain rice 2. Begun bhorta 3. Dal bhorta 4. Tomato bhorta", "img": "bhorta-platter", "tags": ["veg"] },
+        { "slug": "ghula-tengra-curry-with-tomato-bhorta", "name": "Ghula Tengra Curry with Tomato Bhorta", "price": 263, "regular": 329, "desc": "A delicious traditional bite featuring fresh small river fish. 1. Plain rice 2. Ghula tengra curry 3. Tomato bhorta", "img": "ghula-tengra-curry-combo", "tags": ["spicy"] },
+        { "slug": "jhatka-fish-fry-with-dal-bhuna", "name": "Jhatka Fish Fry with Dal Bhuna", "price": 165, "regular": 206, "desc": "A flavorful and spicy combo featuring young hilsa and roasted lentils. 1. Plain rice 2. Jhatka fish fry 3. Dal bhuna", "img": "jhatka-fish-fry-combo", "tags": ["spicy"] },
+        { "slug": "siddho-rice-with-alu-begun", "name": "Siddho Rice with Alu Begun Mixed Bhaja", "price": 207, "regular": 259, "desc": "A true rustic village meal centered around intense, traditional flavors. 1. Siddho rice 2. Alu begun mixed bhaja", "img": "siddho-rice-alu-begun", "tags": ["veg"] },
+        { "slug": "pabda-fish-curry-with-egg-bhuna", "name": "Pabda Fish Curry with Egg Bhuna", "price": 226, "regular": 282, "desc": "A royal feast of delicate Pabda fish paired with a rich egg curry. 1. Plain rice 2. Pabda fish curry 3. Egg bhuna", "img": "pabda-egg-bhuna" },
+        { "slug": "bhuna-khichuri-with-chana-bhuna", "name": "Bhuna Khichuri with Chana Bhuna", "price": 170, "regular": 212, "desc": "1:1 - Full size roasted khichuri served with spiced chickpea", "img": "bhuna-khichuri-chana-bhuna" }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "blurb": "Steamed, fried & biryani rice — the base of every Bengali meal.",
+      "items": [
+        { "slug": "egg-biryani", "name": "Egg Biryani", "price": 113, "regular": 141, "desc": "1:1 - Savory aromatic plain rice cooked with biryani masala & boiled egg", "img": "egg-biryani" },
+        { "slug": "fried-rice", "name": "Fried Rice", "price": 141, "regular": 176, "desc": "1:1 - Classic & homestyle savory fried rice prepared with basic vegetable", "img": "fried-rice", "tags": ["veg"] },
+        { "slug": "plain-rice", "name": "Plain Rice", "price": 57, "regular": 71, "desc": "1:1 - Fluffy & steamed white plain rice prepared fresh", "img": "plain-rice", "tags": ["veg"] },
+        { "slug": "siddho-rice", "name": "Siddho Rice", "price": 45, "regular": 56, "desc": "1:1 - Authentic Siddho Bhat (parboiled rice), steamed fresh", "img": "siddho-rice", "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "blurb": "Quick egg classics to complete your plate.",
+      "items": [
+        { "slug": "egg-omelette", "name": "Egg Omelette", "price": 47, "regular": 59, "desc": "1 pc - Tasty omelette pan fried with onion & green chili", "img": "egg-omelette" },
+        { "slug": "egg-fry-dim-bhaja", "name": "Egg Fry (Dim Bhaja)", "price": 32, "regular": 40, "desc": "Freshly fried dim with authentic oil", "img": "egg-fry-dim-bhaja" }
+      ]
+    },
+    {
+      "id": "paratha",
+      "name": "Paratha",
+      "blurb": "Flaky, layered & ghee-fried flatbreads, made fresh on the tawa.",
+      "items": [
+        { "slug": "lachha-paratha", "name": "Lachha Paratha", "price": 57, "regular": 71, "desc": "1 pc - Multi layered & crispy flatbread prepared with ghee", "img": "lachha-paratha", "tags": ["veg"] },
+        { "slug": "plain-paratha", "name": "Plain Paratha", "price": 38, "regular": 47, "desc": "1 pc - Flaky & layered flatbread prepared on tawa", "img": "plain-paratha", "tags": ["veg"] },
+        { "slug": "mughlai-paratha", "name": "Mughlai Paratha", "price": 52, "regular": 65, "desc": "1:1 - Special egg mughlai paratha, stuffed & pan-fried", "img": "mughlai-paratha" },
+        { "slug": "chicken-special-mughlai-paratha", "name": "Chicken Special Mughlai Paratha", "price": 64, "regular": 80, "desc": "1:1 - Special chicken mughlai paratha, stuffed & pan-fried", "img": "chicken-mughlai-paratha", "tags": ["spicy"] }
+      ]
+    },
+    {
+      "id": "combo-platter",
+      "name": "Special Combo and Platter",
+      "blurb": "Curated all-in-one meal sets, traditional platters and value bundles that combine a base of plain or parboiled rice with protein mains (fish curry, egg curry or fried fish) and traditional accompaniments — lentils, bhajas, bhortas and bhunas. A wholesome, satisfying, balanced traditional meal at a special combo price.",
+      "items": [
+        { "slug": "deshi-ghorowa-niramish-bhoj", "name": "Deshi Ghorowa Niramish Bhoj", "price": 241, "regular": 301, "from": true, "desc": "A simple, homely, and wholesome vegetable combo. 1. Rice 2. Dal 3. Vegetable bhaja & bhorta", "img": "deshi-ghorowa-niramish-bhoj", "tags": ["veg"] },
+        { "slug": "chattogramer-shutki-milon", "name": "Chattogramer Shutki Milon", "price": 189, "regular": 236, "from": true, "desc": "A fiery and flavorful combo for authentic dried fish lovers. 1. Plain rice 2. Shutki 3. Bhorta", "img": "chattogramer-shutki-milon", "tags": ["spicy"] },
+        { "slug": "chhatrabash-special-dim-and-dal", "name": "Chhatrabash Special Dim and Dal", "price": 183, "regular": 229, "from": true, "desc": "The ultimate comfort food combo that feels just like home. Plain rice, dal & dim bhaja", "img": "chhatrabash-dim-dal" },
+        { "slug": "choto-macher-jhal-bhoj", "name": "Choto Macher Jhal Bhoj", "price": 280, "regular": 350, "from": true, "desc": "A delicious traditional bite featuring fresh small river fish. Plain rice & ghula small fish curry", "img": "choto-macher-jhal-bhoj", "tags": ["spicy"] },
+        { "slug": "padmar-jatka-ayojon", "name": "Padmar Jatka Ayojon", "price": 190, "regular": 237, "from": true, "desc": "A flavorful and spicy combo featuring young hilsa and roasted lentils. 1. Plain rice 2. Jatka 3. Dal bhuna", "img": "padmar-jatka-ayojon", "tags": ["spicy"] },
+        { "slug": "palli-gramer-shidol-oitijhyo", "name": "Palli Gramer Shidol Oitijhyo", "price": 222, "regular": 277, "from": true, "desc": "A true rustic village meal centered around intense, traditional flavors. 1. Rice 2. Shidol 3. Bhorta", "img": "palli-gramer-shidol-oitijhyo", "tags": ["spicy"] },
+        { "slug": "pabda-dim-rajokiyo-ayojon", "name": "Pabda-Dim Rajokiyo Ayojon", "price": 214, "regular": 268, "from": true, "desc": "A royal feast of delicate Pabda fish paired with a rich egg curry. 1. Plain rice 2. Pabda curry 3. Egg bhuna", "img": "pabda-dim-rajokiyo-ayojon" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[[TITLE_META]]-->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="author" content="Undal">
+    <link rel="canonical" href="https://undal.bsdc.info.bd/">
+    <meta name="theme-color" content="#14100b">
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+    <link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[["JSONLD"]]-->
+</head>
+<body>
+    <a class="skip" href="#menu">Skip to menu</a>
+
+    <header class="nav" id="top">
+      <div class="nav-in">
+        <a class="brand" href="#top" aria-label="Undal — home">
+          <img src="img/logo.svg" alt="Undal logo" width="40" height="40">
+          <span class="brand-txt"><b>Undal</b><i>Bengali kitchen</i></span>
+        </a>
+        <div class="nav-right">
+          <span class="deal-pill" title="Auto applied on Foodpanda">🔥 20% OFF on Foodpanda</span>
+          <a class="cta" href="https://www.foodpanda.com.bd/restaurant/cdo6/undal-cdo6" target="_blank" rel="noopener nofollow sponsored">Order&nbsp;🐼</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero" aria-label="Undal introduction">
+        <div class="hero-glow g1"></div>
+        <div class="hero-glow g2"></div>
+        <div class="hero-in">
+          <div class="hero-copy">
+            <p class="kicker">✦ Authentic Bangladeshi · Homestyle</p>
+            <h1>Undal — the taste of a <em>Bengali home</em></h1>
+            <p class="lead">Smoky bhorta, slow bhuna, river-fish curry and village platters — every dish on the Undal menu, photographed and priced, in one beautiful place.</p>
+            <div class="hero-cta">
+              <a class="btn btn-solid" href="#menu">Explore the menu ↓</a>
+              <a class="btn btn-ghost" href="https://www.foodpanda.com.bd/restaurant/cdo6/undal-cdo6" target="_blank" rel="noopener nofollow sponsored">Order on Foodpanda</a>
+            </div>
+            <ul class="cuisine" aria-label="Cuisine styles">
+              <li>Asian</li><li>Snacks</li><li>Rice Dishes</li><li>Bangladeshi</li><li>Curry</li>
+            </ul>
+            <dl class="stats">
+              <div><dt>Dishes</dt><dd data-count="67">0</dd></div>
+              <div><dt>Categories</dt><dd data-count="11">0</dd></div>
+              <div><dt>Deal</dt><dd>20%</dd></div>
+            </dl>
+          </div>
+          <figure class="hero-fig">
+            <img src="img/hero.webp" alt="Undal signature spread — rice, bhorta, fish curry, chicken bhuna and dal served on a brass platter" width="900" height="491" fetchpriority="high">
+            <figcaption class="float f1">🍚 Rice · Bhorta · Bhuna</figcaption>
+            <figcaption class="float f2">🐟 Fresh river fish</figcaption>
+            <figcaption class="float f3">🍮 Pitha &amp; desserts</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!--[["TICKER"]]-->
+
+      <!-- ============ MENU ============ -->
+      <div class="menu-wrap" id="menu">
+        <div class="menu-bar">
+          <div>
+            <h2 class="menu-title">Full Menu</h2>
+            <p class="menu-sub">Prices already discounted · regular price shown struck-through</p>
+          </div>
+          <div class="menu-tools">
+            <label class="veg-toggle"><input type="checkbox" id="vegOnly"> 🌿 Veg only</label>
+            <div class="search"><span aria-hidden="true">🔎</span><input id="q" type="search" placeholder="Search dishes… ( / )" aria-label="Search dishes" autocomplete="off"></div>
+          </div>
+        </div>
+
+        <nav class="chips" aria-label="Menu categories">
+<!--[["CHIPS"]]-->
+        </nav>
+
+        <div id="sections">
+<!--[["SECTIONS"]]-->
+        </div>
+
+        <div class="empty" id="empty" hidden>
+          <p>😔 No dish matches “<b id="empty-q"></b>”.</p>
+          <button class="btn btn-ghost" id="clear-q">Clear search</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <div class="foot-in">
+        <img src="img/logo.svg" alt="" width="34" height="34" aria-hidden="true">
+        <p><b>Undal</b> · a Bengali kitchen</p>
+        <p class="fine">Independent menu portfolio. Dishes, descriptions &amp; discounted prices sourced from the official Undal restaurant menu on Foodpanda. Order via Foodpanda for live prices &amp; delivery.</p>
+        <p class="fine">© <span id="y">2026</span> Undal. All dish names belong to their kitchen.</p>
+      </div>
+    </footer>
+
+    <button class="totop" id="totop" aria-label="Back to top">↑</button>
+
+    <!-- dish modal -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-name" hidden>
+      <div class="modal-back" data-close></div>
+      <div class="modal-card">
+        <button class="modal-x" data-close aria-label="Close">✕</button>
+        <img id="m-img" src="" alt="" width="600" height="450">
+        <div class="modal-body">
+          <div class="dish-tags" id="m-tags"></div>
+          <h3 id="m-name"></h3>
+          <p id="m-desc"></p>
+          <div class="modal-foot">
+            <p class="dish-price"><span class="now" id="m-price"></span> <s class="was" id="m-was"></s> <span class="dish-save" id="m-save"></span></p>
+            <a class="btn btn-solid" id="m-order" href="https://www.foodpanda.com.bd/restaurant/cdo6/undal-cdo6" target="_blank" rel="noopener nofollow sponsored">Order this dish 🐼</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
